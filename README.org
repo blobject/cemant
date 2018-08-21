@@ -1,0 +1,76 @@
+* semant
+
+Semant (pronouced [[https://en.wikipedia.org/wiki/International_Phonetic_Alphabet][sɪ'mænt]]) is a semi-light grayish color scheme intended to be used with terminals, text editors, and minimalistic desktop environments.
+
+*** todo
+- [-] base palette design (16 colors)
+- [ ] extended palette design (16 more colors?)
+- [ ] code consideration
+- [ ] terminal consideration
+- [ ] editor consideration
+- [ ] typeface consideration
+- [ ] other applications consideration
+- [ ] documentation (+ rationale)
+- [ ] sampling
+- [ ] release (here and elsewhere)
+- consider other similarly gray color schemes
+  - anti-zenburn: https://github.com/m00natic/anti-zenburn-theme
+  - morning: https://github.com/vim/vim/blob/master/runtime/colors/morning.vim
+  - nextstep: https://en.wikipedia.org/wiki/NeXTSTEP#/media/File:NeXTSTEP_desktop.png
+  - seoul256: https://github.com/junegunn/seoul256.vim
+  - solaris cde: https://i.warosu.org/data/g/img/0661/58/1527765126845.png
+  - windows 3.1: https://en.wikipedia.org/wiki/Windows_3.1x#/media/File:Windows_3.11_workspace.png
+  - windows 95: https://en.wikipedia.org/wiki/Windows_95#/media/File:Windows_95_at_first_run.png
+  - xerox star: http://toastytech.com/guis/starbitmap2.gif
+
+*** palette
+
+/WIP/
+
+[[palette.svg]]
+
+*** sample
+
+/TODO/
+
+*** installation
+
+/TODO/
+
+*** features
+
+- vim
+  - Syntax highlighting
+  - (Plugins)
+- emacs
+  - Theme
+  - Syntax highlighting
+  - (Plugins)
+- terminal
+  - dircolors
+- Colorimetrically and mathematically graceful
+- Psychological values:
+  - Prefer light contexts but compatible with both light and dark.
+  - Prefer less long-term fatigue over more pizzazz.
+  - Foreground should look clear, but contrast should not be too high.
+  - Should feel "default" and "correct", but still have "personality".
+
+*** research
+
+- HSB, attention, preference :: [[http://www.thesis.bilkent.edu.tr/0001471.pdf]]
+  - Max saturation generally catches most attention and is most preferred (but I guess also most fatiguing).
+  - People generally prefer seeing blue (on any background).
+  - Cyan catches most attention (on red and yellow).
+  - Red catches most attention (on yellow, cyan, and blue).
+- Creating color palettes :: [[https://www.smashingmagazine.com/2010/02/color-theory-for-designer-part-3-creating-your-own-color-palettes/]]
+- HSL and HSV :: [[https://en.wikipedia.org/wiki/HSL_and_HSV]]
+  - Computationally efficient but not perceptually uniform.
+- CIELAB color space :: [[https://en.wikipedia.org/wiki/CIELAB_color_space]]
+  - Three-dimensional real number space, perceptually uniform with human color vision.
+- Color theory :: [[https://en.wikipedia.org/wiki/Color_theory]]
+  - There is no absolute standard of color harmony and pleasurability (much less one for a coding environment).
+    - 21st century conceptual model: =color harmony is a function of Individual Differences + Cultural Experiences + Prevailing Context + Perceptual Effects + Effects of Time=
+  - "Neutral colors are easily modified by adjacent more saturated colors and they appear to take on the hue *complementary* to the saturated color." [my emphasis]
+- Grey :: [[https://en.wikipedia.org/wiki/Grey]]
+  - Aka. unsaturated, achromatic, neutral
+  - Generally the least liked color
