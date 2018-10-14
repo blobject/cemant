@@ -1,6 +1,6 @@
-* semant
+* cemant
 
-Semant (pronouced [[https://en.wikipedia.org/wiki/International_Phonetic_Alphabet][sɪ'mænt]]) is a semi-light grayish color scheme intended to be used with terminals, text editors, and minimalistic desktop environments.
+Cemant (pronouced [[https://en.wikipedia.org/wiki/International_Phonetic_Alphabet][sə'mænt]]) is a semi-light grayish color scheme intended to be used with terminals, text editors, and minimalistic desktop environments.
 
 *** todo
 - [-] base palette design (16 colors)
