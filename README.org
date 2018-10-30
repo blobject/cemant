@@ -1,13 +1,13 @@
 * cemant
 
-Cemant (pronouced [[https://en.wikipedia.org/wiki/International_Phonetic_Alphabet][sə'mænt]]) is a semi-light grayish color scheme intended to be used with terminals, text editors, and minimalistic desktop environments.
+Cemant (pronouced sə'mænt) is a lightish grayish color scheme intended to be used with terminals, text editors, and minimalistic desktop environments.
 
 *** todo
 - [-] base palette design (16 colors)
 - [ ] extended palette design (16 more colors?)
 - [ ] code consideration
-- [ ] terminal consideration
-- [ ] editor consideration
+- [-] terminal consideration
+- [-] editor consideration
 - [ ] typeface consideration
 - [ ] other applications consideration
 - [ ] documentation (+ rationale)
@@ -27,6 +27,25 @@ Cemant (pronouced [[https://en.wikipedia.org/wiki/International_Phonetic_Alphabe
 
 /WIP/
 
+| name | hex | rgb | hsl | lab | img |
+|------|-----|-----|-----|-----|-----|
+| white (bg) | #bbbbc3 | 187 187 195 | 179  16 191 | L76 A  2 B -4 | -   |
+| red        | #a92636 | 169  38  54 | 250 161 104 | L38 A 53 B 24 | -   |
+| green      | #437e00 |  67 126   0 |  62 255  63 | L53 A-38 B 53 | -   |
+| yellow     | #8b6b02 | 139 107   2 |  33 248  70 | L47 A  4 B 53 | -   |
+| blue       | #4051b0 |  64  81 176 | 164 119 120 | L38 A 24 B-53 | -   |
+| magenta    | #9a1e98 | 154  30 152 | 213 172  92 | L38 A 62 B-38 | -   |
+| cyan       | #007f68 |   0 127 104 | 120 255  64 | L47 A-38 B  4 | -   |
+| dark       | #5a595f |  90  89  95 | 177   8  92 | L38           | -   |
+| light      | #95959d | 149 149 157 | 170  10 153 | L62           | -   |
+| b red      | #c74032 | 199  64  50 |   4 153 124 | L47 A 53 B 38 | -   |
+| b green    | #23920e |  35 146  14 |  78 210  80 | L53 A 53 B 53 | -   |
+| b yellow   | #947c27 | 148 124  39 |  33 149  94 | L53 A  0 B 47 | -   |
+| b blue     | #1c75af |  28 117 175 | 144 185 102 | L47 A -4 B-38 | -   |
+| b magenta  | #8228c0 | 130  40 192 | 195 167 116 | L38 A 62 B-62 | -   |
+| b cyan     | #4a8798 |  74 135 152 | 137  88 113 | L53 A-15 B-15 | -   |
+| black (fg) | #3a393f |  58  57  63 | 177  13  60 | L24 A  2 B -4 | -   |
+
 [[palette.svg]]
 
 *** sample
@@ -39,11 +58,11 @@ Cemant (pronouced [[https://en.wikipedia.org/wiki/International_Phonetic_Alphabe
 
 *** features
 
-- vim
-  - Syntax highlighting
-  - (Plugins)
 - emacs
   - Theme
+  - Syntax highlighting
+  - (Plugins)
+- vim
   - Syntax highlighting
   - (Plugins)
 - terminal
