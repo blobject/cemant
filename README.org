@@ -2,18 +2,33 @@
 
 Cemant (pronouced sə'mænt) is a lightish grayish color scheme intended to be used with terminals, text editors, and minimalistic desktop environments.
 
-*** todo
-- [-] base palette design (16 colors)
-- [ ] extended palette design (16 more colors?)
-- [ ] code consideration
-- [-] terminal consideration
-- [-] editor consideration
-- [ ] typeface consideration
-- [ ] other applications consideration
-- [ ] documentation (+ rationale)
-- [ ] sampling
-- [ ] release (here and elsewhere)
-- consider other similarly gray color schemes
+- palette ::
+[[/pub/palette.png]]
+
+=let α=0.618 over 100, β=0.618 over 128=
+
+| [[https://en.wikipedia.org/wiki/ANSI_escape_code#Colors][name]] | [[https://en.wikipedia.org/wiki/Web_colors][rgb]] | rgb (b) | [[https://en.wikipedia.org/wiki/CIELAB_color_space][L]] | L (b) | A | B |
+|---|---|---|---|---|---|---|
+| [[/pub/bg.png]] [[/pub/fg.png]] back, fore | =b9bdc5= | =36383f= | 76.4: 2[[https://en.wikipedia.org/wiki/Golden_ratio][α]]^{2} | 23.6: α^{3} | 0 | -4.4: [[https://en.wikipedia.org/wiki/Golden_ratio][β]]^{7} |
+| [[/pub/00d.png]] [[/pub/08dd.png]] dark | =16161d= | =575a61= | /[[https://en.wikipedia.org/wiki/Eigengrau][eigengrau]]/ | 38.2: α^{2} | 0 | -4.4: β^{7} |
+| [[/pub/01r.png]] [[/pub/09rr.png]] red     | =a32c2d= | =be4641= | 38.2: α^{2}  | 47.2: 2α^{3}  | 48.9: β^{2}  | 30.2: β^{3}  |
+| [[/pub/02g.png]] [[/pub/10gg.png]] green   | =4b7d08= | =72a336= | 47.2: 2α^{3} | 61.8: α       | -30.2: β^{3} | 48.9: β^{2}  |
+| [[/pub/03y.png]] [[/pub/11yy.png]] yellow  | =866c12= | =af913a= | 47.2: 2α^{3} | 61.8: α       | 4.4: β^{7}   | 48.9: β^{2}  |
+| [[/pub/04b.png]] [[/pub/12bb.png]] blue    | =3c56aa= | =566cc3= | 38.2: α^{2}  | 47.2: 2α^{3}  | 11.5: β^{5}  | -48.9: β^{2} |
+| [[/pub/05m.png]] [[/pub/13mm.png]] magenta | =91328c= | =aa4aa4= | 38.2: α^{2}  | 47.2: 2α^{3}  | 48.9: β^{2}  | -30.2: β^{3} |
+| [[/pub/06c.png]] [[/pub/14cc.png]] cyan    | =237e6f= | =4ea494= | 47.2: 2α^{3} | 61.8: α       | -30.2: β^{3} | 0            |
+| [[/pub/07l.png]] [[/pub/15ll.png]] light   | =92959d= | =d2d6de= | 61.8: α      | 85.4: α+α^{3} | 0            | -4.4: β^{7}  |
+
+- screenshot ::
+
+[[/pub/msgcat.png]]
+
+- goals ::
+  - colorimetrically and mathematically graceful
+  - less long-term fatigue over more pizzazz
+  - should feel "default" and "correct"
+
+- list of some gray color schemes ::
   - anti-zenburn: https://github.com/m00natic/anti-zenburn-theme
   - morning: https://github.com/vim/vim/blob/master/runtime/colors/morning.vim
   - nextstep: https://en.wikipedia.org/wiki/NeXTSTEP#/media/File:NeXTSTEP_desktop.png
@@ -23,73 +38,3 @@ Cemant (pronouced sə'mænt) is a lightish grayish color scheme intended to be u
   - windows 95: https://en.wikipedia.org/wiki/Windows_95#/media/File:Windows_95_at_first_run.png
   - xerox star: http://toastytech.com/guis/starbitmap2.gif
 
-*** palette
-
-/WIP/
-
-| name | hex | rgb | hsl | lab | img |
-|------|-----|-----|-----|-----|-----|
-| white (bg) | #bbbbc3 | 187 187 195 | 179  16 191 | L76 A  2 B -4 | -   |
-| red        | #a92636 | 169  38  54 | 250 161 104 | L38 A 53 B 24 | -   |
-| green      | #437e00 |  67 126   0 |  62 255  63 | L53 A-38 B 53 | -   |
-| yellow     | #8b6b02 | 139 107   2 |  33 248  70 | L47 A  4 B 53 | -   |
-| blue       | #4051b0 |  64  81 176 | 164 119 120 | L38 A 24 B-53 | -   |
-| magenta    | #9a1e98 | 154  30 152 | 213 172  92 | L38 A 62 B-38 | -   |
-| cyan       | #007f68 |   0 127 104 | 120 255  64 | L47 A-38 B  4 | -   |
-| dark       | #5a595f |  90  89  95 | 177   8  92 | L38           | -   |
-| light      | #95959d | 149 149 157 | 170  10 153 | L62           | -   |
-| b red      | #c74032 | 199  64  50 |   4 153 124 | L47 A 53 B 38 | -   |
-| b green    | #23920e |  35 146  14 |  78 210  80 | L53 A 53 B 53 | -   |
-| b yellow   | #947c27 | 148 124  39 |  33 149  94 | L53 A  0 B 47 | -   |
-| b blue     | #1c75af |  28 117 175 | 144 185 102 | L47 A -4 B-38 | -   |
-| b magenta  | #8228c0 | 130  40 192 | 195 167 116 | L38 A 62 B-62 | -   |
-| b cyan     | #4a8798 |  74 135 152 | 137  88 113 | L53 A-15 B-15 | -   |
-| black (fg) | #3a393f |  58  57  63 | 177  13  60 | L24 A  2 B -4 | -   |
-
-[[palette.svg]]
-
-*** sample
-
-/TODO/
-
-*** installation
-
-/TODO/
-
-*** features
-
-- emacs
-  - Theme
-  - Syntax highlighting
-  - (Plugins)
-- vim
-  - Syntax highlighting
-  - (Plugins)
-- terminal
-  - dircolors
-- Colorimetrically and mathematically graceful
-- Psychological values:
-  - Prefer light contexts but compatible with both light and dark.
-  - Prefer less long-term fatigue over more pizzazz.
-  - Foreground should look clear, but contrast should not be too high.
-  - Should feel "default" and "correct", but still have "personality".
-
-*** research
-
-- HSB, attention, preference :: [[http://www.thesis.bilkent.edu.tr/0001471.pdf]]
-  - Max saturation generally catches most attention and is most preferred (but I guess also most fatiguing).
-  - People generally prefer seeing blue (on any background).
-  - Cyan catches most attention (on red and yellow).
-  - Red catches most attention (on yellow, cyan, and blue).
-- Creating color palettes :: [[https://www.smashingmagazine.com/2010/02/color-theory-for-designer-part-3-creating-your-own-color-palettes/]]
-- HSL and HSV :: [[https://en.wikipedia.org/wiki/HSL_and_HSV]]
-  - Computationally efficient but not perceptually uniform.
-- CIELAB color space :: [[https://en.wikipedia.org/wiki/CIELAB_color_space]]
-  - Three-dimensional real number space, perceptually uniform with human color vision.
-- Color theory :: [[https://en.wikipedia.org/wiki/Color_theory]]
-  - There is no absolute standard of color harmony and pleasurability (much less one for a coding environment).
-    - 21st century conceptual model: =color harmony is a function of Individual Differences + Cultural Experiences + Prevailing Context + Perceptual Effects + Effects of Time=
-  - "Neutral colors are easily modified by adjacent more saturated colors and they appear to take on the hue *complementary* to the saturated color." [my emphasis]
-- Grey :: [[https://en.wikipedia.org/wiki/Grey]]
-  - Aka. unsaturated, achromatic, neutral
-  - Generally the least liked color
