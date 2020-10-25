@@ -3,21 +3,26 @@
 Cemant (pronouced sə'mænt) is a lightish grayish color scheme intended to be used with terminals, text editors, and minimalistic desktop environments.
 
 - palette ::
+
 [[/pub/palette.png]]
 
-=let α=0.618 over 100, β=0.618 over 128=
+=let α = 0.618 over 100, β = 0.618 over 128=
 
 | [[https://en.wikipedia.org/wiki/ANSI_escape_code#Colors][name]] | [[https://en.wikipedia.org/wiki/Web_colors][rgb]] | rgb (b) | [[https://en.wikipedia.org/wiki/CIELAB_color_space][L]] | L (b) | A | B |
 |---|---|---|---|---|---|---|
-| [[/pub/bg.png]] [[/pub/fg.png]] back, fore | =b9bdc5= | =36383f= | 76.4: 2[[https://en.wikipedia.org/wiki/Golden_ratio][α]]^{2} | 23.6: α^{3} | 0 | -4.4: [[https://en.wikipedia.org/wiki/Golden_ratio][β]]^{7} |
-| [[/pub/00d.png]] [[/pub/08dd.png]] dark | =16161d= | =575a61= | /[[https://en.wikipedia.org/wiki/Eigengrau][eigengrau]]/ | 38.2: α^{2} | 0 | -4.4: β^{7} |
-| [[/pub/01r.png]] [[/pub/09rr.png]] red     | =a32c2d= | =be4641= | 38.2: α^{2}  | 47.2: 2α^{3}  | 48.9: β^{2}  | 30.2: β^{3}  |
-| [[/pub/02g.png]] [[/pub/10gg.png]] green   | =4b7d08= | =72a336= | 47.2: 2α^{3} | 61.8: α       | -30.2: β^{3} | 48.9: β^{2}  |
-| [[/pub/03y.png]] [[/pub/11yy.png]] yellow  | =866c12= | =af913a= | 47.2: 2α^{3} | 61.8: α       | 4.4: β^{7}   | 48.9: β^{2}  |
-| [[/pub/04b.png]] [[/pub/12bb.png]] blue    | =3c56aa= | =566cc3= | 38.2: α^{2}  | 47.2: 2α^{3}  | 11.5: β^{5}  | -48.9: β^{2} |
-| [[/pub/05m.png]] [[/pub/13mm.png]] magenta | =91328c= | =aa4aa4= | 38.2: α^{2}  | 47.2: 2α^{3}  | 48.9: β^{2}  | -30.2: β^{3} |
-| [[/pub/06c.png]] [[/pub/14cc.png]] cyan    | =237e6f= | =4ea494= | 47.2: 2α^{3} | 61.8: α       | -30.2: β^{3} | 0            |
-| [[/pub/07l.png]] [[/pub/15ll.png]] light   | =92959d= | =d2d6de= | 61.8: α      | 85.4: α+α^{3} | 0            | -4.4: β^{7}  |
+| [[/pub/bg.png]] [[/pub/fg.png]] bg, fg | =b9bdc5= | =36383f= | 76.4: 2α^{2} | 23.6: α^{3}   | 0             | -4.4: -β^{7}  |
+| [[/pub/00d.png]] [[/pub/08dd.png]] dark | =16161d= | =575a61= | /[[https://en.wikipedia.org/wiki/Eigengrau][eigengrau]]/ | 38.2: α^{2} | 0 | -4.4: -β^{7} |
+| [[/pub/01r.png]] [[/pub/09rr.png]] red     | =a32c2d= | =be4641= | 38.2: α^{2}  | 47.2: 2α^{3}  | 48.9: β^{2}   | 30.2: β^{3}   |
+| [[/pub/02g.png]] [[/pub/10gg.png]] green   | =4b7d08= | =72a336= | 47.2: 2α^{3} | 61.8: α       | -30.2: -β^{3} | 48.9: β^{2}   |
+| [[/pub/03y.png]] [[/pub/11yy.png]] yellow  | =866c12= | =af913a= | 47.2: 2α^{3} | 61.8: α       | 4.4: β^{7}    | 48.9: β^{2}   |
+| [[/pub/04b.png]] [[/pub/12bb.png]] blue    | =3c56aa= | =566cc3= | 38.2: α^{2}  | 47.2: 2α^{3}  | 11.5: β^{5}   | -48.9: -β^{2} |
+| [[/pub/05m.png]] [[/pub/13mm.png]] magenta | =91328c= | =aa4aa4= | 38.2: α^{2}  | 47.2: 2α^{3}  | 48.9: β^{2}   | -30.2: -β^{3} |
+| [[/pub/06c.png]] [[/pub/14cc.png]] cyan    | =237e6f= | =4ea494= | 47.2: 2α^{3} | 61.8: α       | -30.2: -β^{3} | 0             |
+| [[/pub/07l.png]] [[/pub/15ll.png]] light   | =92959d= | =d2d6de= | 61.8: α      | 85.4: α+α^{3} | 0             | -4.4: -β^{7}  |
+
+- [[https://en.wikipedia.org/wiki/Golden_ratio][φ]] over [[https://en.wikipedia.org/wiki/CIELAB_color_space][cielab]] ::
+
+[[/pub/lab.png]]
 
 - screenshot ::
 
