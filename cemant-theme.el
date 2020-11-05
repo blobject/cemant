@@ -1,3 +1,6 @@
+; cemant colors for emacs
+; agaric <agaric@protonmail.com>
+
 (deftheme cemant "Grayish lightish color scheme for Emacs")
 
 (let* ((c-d  "#16161d")
@@ -48,19 +51,19 @@
    `(hl-line              ((t (:background ,c-15))))
    `(info-xref            ((t (:foreground ,c-g  :underline t))))
    `(linum                ((t (:background ,c-16 :foreground ,c-dd))))
-   `(linum-highlight-face ((t (:background ,c-l  :foreground ,c-d :weight bold))))
+   `(linum-highlight-face ((t (:background ,c-ll :foreground ,c-d :weight bold))))
    `(mode-line            ((t (:background ,c-dd :foreground ,c-ll))))
-   `(mode-line-inactive   ((t (:background ,c-l :foreground ,c-d))))
+   `(mode-line-inactive   ((t (:background ,c-l :foreground ,c-dd))))
    `(region               ((t (:background ,c-l))))
    `(vertical-border      ((t (:foreground ,c-l))))
 
    `(font-lock-builtin-face           ((t (:foreground ,c-y))))
-   `(font-lock-comment-face           ((t (:foreground ,c-bb))))
-   `(font-lock-comment-delimiter-face ((t (:foreground ,c-bb))))
+   `(font-lock-comment-face           ((t (:foreground ,c-bb :bold t))))
+   `(font-lock-comment-delimiter-face ((t (:foreground ,c-bb :bold t))))
    `(font-lock-constant-face          ((t (:foreground ,c-r))))
    `(font-lock-doc-face               ((t (:foreground ,c-dd))))
    `(font-lock-doc-string-face        ((t (:foreground ,c-dd))))
-   `(font-lock-function-name-face     ((t (:foreground ,c-b))))
+   `(font-lock-function-name-face     ((t (:foreground ,c-b :bold t))))
    `(font-lock-keyword-face           ((t (:foreground ,c-y))))
    `(font-lock-negation-char-face     ((t (:foreground ,c-mm))))
    `(font-lock-number-face            ((t (:foreground ,c-r))))
@@ -88,3 +91,4 @@
   ))
 
 (provide-theme 'cemant)
+
