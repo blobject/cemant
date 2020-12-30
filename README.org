@@ -16,7 +16,7 @@ It is inspired by the light gray color that was once (still is?) so popular in G
 | [[/pub/00d.png]] [[/pub/08dd.png]] dark | =16161d= | =575a61= | /[[https://en.wikipedia.org/wiki/Eigengrau][eigengrau]]/ | 38.2: λ^{2} | 0 | -4.4: -χ^{7} |
 | [[/pub/01r.png]] [[/pub/09rr.png]] red     | =a32c2d= | =cf554d= | 38.2: λ^{2}  | 52.8: λ^{2}+λ^{4}  | 48.9: χ^{2}   | 30.2: χ^{3}   |
 | [[/pub/02g.png]] [[/pub/10gg.png]] green   | =4b7d08= | =72a336= | 47.2: 2λ^{3} | 61.8: λ       | -30.2: -χ^{3} | 48.9: χ^{2}   |
-| [[/pub/03y.png]] [[/pub/11yy.png]] yellow  | =91328c= | =ba8d3b= | 47.2: 2λ^{3} | 61.8: λ       | 11.5: χ^{5}    | 48.9: χ^{2}   |
+| [[/pub/03y.png]] [[/pub/11yy.png]] yellow  | =916814= | =ba8d3b= | 47.2: 2λ^{3} | 61.8: λ       | 11.5: χ^{5}    | 48.9: χ^{2}   |
 | [[/pub/04b.png]] [[/pub/12bb.png]] blue    | =3c56aa= | =667ad3= | 38.2: λ^{2}  | 52.8: λ^{2}+λ^{4}  | 11.5: χ^{5}   | -48.9: -χ^{2} |
 | [[/pub/05m.png]] [[/pub/13mm.png]] magenta | =91328c= | =ba59b3= | 38.2: λ^{2}  | 52.8: λ^{2}+λ^{4}  | 48.9: χ^{2}   | -30.2: -χ^{3} |
 | [[/pub/06c.png]] [[/pub/14cc.png]] cyan    | =237e6f= | =4ea494= | 47.2: 2λ^{3} | 61.8: λ       | -30.2: -χ^{3} | 0             |
