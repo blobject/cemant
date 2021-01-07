@@ -2,7 +2,7 @@
 
 Cemant (pronouced sə'mænt) is an 18-color palette for use with terminals, text editors, and minimalistic desktop environments.
 
-It is inspired by the light gray color that was once (still is?) so popular in GUIs (a few links to screenshots below) and utilises a lowish-contrast set of accompanying colors to round out the palette. Hues and values were calculated over the CIELAB color space with the aid of the golden ratio to add some Reason, even if the calculations would have no other scientific or ergonomic basis.
+It is inspired by the light gray that was once (still is?) so popular in GUIs (a few links to screenshots provided below) and utilises a lowish-contrast set of accompanying colors to round out the palette. Hues and values were calculated over the CIELAB color space with the aid of the golden ratio to add some Reason, even if the calculations would have no other scientific or ergonomic basis.
 
 - palette ::
 
@@ -10,7 +10,7 @@ It is inspired by the light gray color that was once (still is?) so popular in G
 
 =let λ = 0.618 over 100, χ = 0.618 over 128=
 
-| [[https://en.wikipedia.org/wiki/ANSI_escape_code#Colors][name]] | [[https://en.wikipedia.org/wiki/Web_colors][rgb]] | rgb (b) | [[https://en.wikipedia.org/wiki/CIELAB_color_space][L]] | L (b) | A | B |
+| [[https://en.wikipedia.org/wiki/ANSI_escape_code#Colors][name]] | [[https://en.wikipedia.org/wiki/Web_colors][rgb]] | RGB | [[https://en.wikipedia.org/wiki/CIELAB_color_space][l]] | L | a | b |
 |---|---|---|---|---|---|---|
 | [[/pub/bg.png]] [[/pub/fg.png]] bg, fg | =b9bdc5= | =36383f= | 76.4: 2λ^{2} | 23.6: λ^{3}   | 0             | -4.4: -χ^{7}  |
 | [[/pub/00d.png]] [[/pub/08dd.png]] dark | =16161d= | =575a61= | /[[https://en.wikipedia.org/wiki/Eigengrau][eigengrau]]/ | 38.2: λ^{2} | 0 | -4.4: -χ^{7} |

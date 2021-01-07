@@ -23,16 +23,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.75024142"
-     inkscape:cx="947.32426"
-     inkscape:cy="343.3097"
+     inkscape:zoom="0.75"
+     inkscape:cx="576.86838"
+     inkscape:cy="191.35656"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
      showgrid="false"
      units="mm"
      inkscape:window-width="2160"
-     inkscape:window-height="1406"
+     inkscape:window-height="1398"
      inkscape:window-x="0"
      inkscape:window-y="22"
      inkscape:window-maximized="1" />
@@ -152,7 +152,7 @@
          id="tspan974"
          x="281.96213"
          y="69.556038"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:Agave;-inkscape-font-specification:Agave;text-align:center;text-anchor:middle;fill:#575a61;fill-opacity:1;stroke-width:0.264583">b light</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.64444px;font-family:Agave;-inkscape-font-specification:Agave;text-align:center;text-anchor:middle;fill:#575a61;fill-opacity:1;stroke-width:0.264583">Light</tspan><tspan
          sodipodi:role="line"
          x="281.96213"
          y="80.139374"
@@ -168,7 +168,7 @@
          id="tspan974-1"
          x="89.962128"
          y="27.556042"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:Agave;-inkscape-font-specification:Agave;text-align:center;text-anchor:middle;fill:#d2d6de;fill-opacity:1;stroke-width:0.264583">red</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.64444px;font-family:Agave;-inkscape-font-specification:Agave;text-align:center;text-anchor:middle;fill:#d2d6de;fill-opacity:1;stroke-width:0.264583">red</tspan><tspan
          sodipodi:role="line"
          x="89.962128"
          y="38.139378"
@@ -184,7 +184,7 @@
          id="tspan974-9"
          x="121.96213"
          y="27.556042"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:Agave;-inkscape-font-specification:Agave;text-align:center;text-anchor:middle;fill:#d2d6de;fill-opacity:1;stroke-width:0.264583">green</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.64444px;font-family:Agave;-inkscape-font-specification:Agave;text-align:center;text-anchor:middle;fill:#d2d6de;fill-opacity:1;stroke-width:0.264583">green</tspan><tspan
          sodipodi:role="line"
          x="121.96213"
          y="38.139378"
@@ -200,7 +200,7 @@
          id="tspan974-7"
          x="153.96213"
          y="27.556042"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:Agave;-inkscape-font-specification:Agave;text-align:center;text-anchor:middle;fill:#d2d6de;fill-opacity:1;stroke-width:0.264583">yellow</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.64444px;font-family:Agave;-inkscape-font-specification:Agave;text-align:center;text-anchor:middle;fill:#d2d6de;fill-opacity:1;stroke-width:0.264583">yellow</tspan><tspan
          sodipodi:role="line"
          x="153.96213"
          y="38.139378"
@@ -216,7 +216,7 @@
          id="tspan974-5"
          x="185.96213"
          y="27.556042"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:Agave;-inkscape-font-specification:Agave;text-align:center;text-anchor:middle;fill:#d2d6de;fill-opacity:1;stroke-width:0.264583">blue</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.64444px;font-family:Agave;-inkscape-font-specification:Agave;text-align:center;text-anchor:middle;fill:#d2d6de;fill-opacity:1;stroke-width:0.264583">blue</tspan><tspan
          sodipodi:role="line"
          x="185.96213"
          y="38.139378"
@@ -232,7 +232,7 @@
          id="tspan974-76"
          x="217.96213"
          y="27.556042"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:Agave;-inkscape-font-specification:Agave;text-align:center;text-anchor:middle;fill:#d2d6de;fill-opacity:1;stroke-width:0.264583">magenta</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.64444px;font-family:Agave;-inkscape-font-specification:Agave;text-align:center;text-anchor:middle;fill:#d2d6de;fill-opacity:1;stroke-width:0.264583">magenta</tspan><tspan
          sodipodi:role="line"
          x="217.96213"
          y="38.139378"
@@ -248,7 +248,7 @@
          id="tspan974-6"
          x="249.96213"
          y="27.556042"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:Agave;-inkscape-font-specification:Agave;text-align:center;text-anchor:middle;fill:#d2d6de;fill-opacity:1;stroke-width:0.264583">cyan</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.64444px;font-family:Agave;-inkscape-font-specification:Agave;text-align:center;text-anchor:middle;fill:#d2d6de;fill-opacity:1;stroke-width:0.264583">cyan</tspan><tspan
          sodipodi:role="line"
          x="249.96213"
          y="38.139378"
@@ -264,7 +264,7 @@
          id="tspan974-4"
          x="281.96213"
          y="27.556042"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:Agave;-inkscape-font-specification:Agave;text-align:center;text-anchor:middle;fill:#16161d;fill-opacity:1;stroke-width:0.264583">light</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.64444px;font-family:Agave;-inkscape-font-specification:Agave;text-align:center;text-anchor:middle;fill:#16161d;fill-opacity:1;stroke-width:0.264583">light</tspan><tspan
          sodipodi:role="line"
          x="281.96213"
          y="38.139378"
@@ -280,7 +280,7 @@
          id="tspan974-93"
          x="57.962135"
          y="69.556038"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:Agave;-inkscape-font-specification:Agave;text-align:center;text-anchor:middle;fill:#d2d6de;fill-opacity:1;stroke-width:0.264583">b dark</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.64444px;font-family:Agave;-inkscape-font-specification:Agave;text-align:center;text-anchor:middle;fill:#d2d6de;fill-opacity:1;stroke-width:0.264583">Dark</tspan><tspan
          sodipodi:role="line"
          x="57.962135"
          y="80.139374"
@@ -296,7 +296,7 @@
          id="tspan974-8"
          x="249.96213"
          y="69.556038"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:Agave;-inkscape-font-specification:Agave;text-align:center;text-anchor:middle;fill:#16161d;fill-opacity:1;stroke-width:0.264583">b cyan</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.64444px;font-family:Agave;-inkscape-font-specification:Agave;text-align:center;text-anchor:middle;fill:#16161d;fill-opacity:1;stroke-width:0.264583">Cyan</tspan><tspan
          sodipodi:role="line"
          x="249.96213"
          y="80.139374"
@@ -312,7 +312,7 @@
          id="tspan974-96"
          x="217.96213"
          y="69.556038"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:Agave;-inkscape-font-specification:Agave;text-align:center;text-anchor:middle;fill:#16161d;fill-opacity:1;stroke-width:0.264583">b magenta</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.64444px;font-family:Agave;-inkscape-font-specification:Agave;text-align:center;text-anchor:middle;fill:#16161d;fill-opacity:1;stroke-width:0.264583">Magenta</tspan><tspan
          sodipodi:role="line"
          x="217.96213"
          y="80.139374"
@@ -328,7 +328,7 @@
          id="tspan974-61"
          x="185.96213"
          y="69.556038"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:Agave;-inkscape-font-specification:Agave;text-align:center;text-anchor:middle;fill:#16161d;fill-opacity:1;stroke-width:0.264583">b blue</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.64444px;font-family:Agave;-inkscape-font-specification:Agave;text-align:center;text-anchor:middle;fill:#16161d;fill-opacity:1;stroke-width:0.264583">Blue</tspan><tspan
          sodipodi:role="line"
          x="185.96213"
          y="80.139374"
@@ -344,7 +344,7 @@
          id="tspan974-84"
          x="153.96213"
          y="69.556038"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:Agave;-inkscape-font-specification:Agave;text-align:center;text-anchor:middle;fill:#16161d;fill-opacity:1;stroke-width:0.264583">b yellow</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.64444px;font-family:Agave;-inkscape-font-specification:Agave;text-align:center;text-anchor:middle;fill:#16161d;fill-opacity:1;stroke-width:0.264583">Yellow</tspan><tspan
          sodipodi:role="line"
          x="153.96213"
          y="80.139374"
@@ -360,7 +360,7 @@
          id="tspan974-0"
          x="121.96213"
          y="69.556038"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:Agave;-inkscape-font-specification:Agave;text-align:center;text-anchor:middle;fill:#16161d;fill-opacity:1;stroke-width:0.264583">b green</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.64444px;font-family:Agave;-inkscape-font-specification:Agave;text-align:center;text-anchor:middle;fill:#16161d;fill-opacity:1;stroke-width:0.264583">Green</tspan><tspan
          sodipodi:role="line"
          x="121.96213"
          y="80.139374"
@@ -376,7 +376,7 @@
          id="tspan974-47"
          x="89.962128"
          y="69.556038"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:Agave;-inkscape-font-specification:Agave;text-align:center;text-anchor:middle;fill:#16161d;fill-opacity:1;stroke-width:0.264583">b red</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.64444px;font-family:Agave;-inkscape-font-specification:Agave;text-align:center;text-anchor:middle;fill:#16161d;fill-opacity:1;stroke-width:0.264583">Red</tspan><tspan
          sodipodi:role="line"
          x="89.962128"
          y="80.139374"
@@ -392,7 +392,7 @@
          id="tspan974-17"
          x="57.962128"
          y="27.556038"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:Agave;-inkscape-font-specification:Agave;text-align:center;text-anchor:middle;fill:#92959d;fill-opacity:1;stroke-width:0.264583">dark</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.64444px;font-family:Agave;-inkscape-font-specification:Agave;text-align:center;text-anchor:middle;fill:#92959d;fill-opacity:1;stroke-width:0.264583">dark</tspan><tspan
          sodipodi:role="line"
          x="57.962128"
          y="38.139374"
@@ -408,7 +408,7 @@
          id="tspan974-178"
          x="25.962128"
          y="69.556038"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:Agave;-inkscape-font-specification:Agave;text-align:center;text-anchor:middle;fill:#b9bdc5;fill-opacity:1;stroke-width:0.264583">foreground</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.64444px;font-family:Agave;-inkscape-font-specification:Agave;text-align:center;text-anchor:middle;fill:#b9bdc5;fill-opacity:1;stroke-width:0.264583">foreground</tspan><tspan
          sodipodi:role="line"
          x="25.962128"
          y="80.139374"
@@ -424,7 +424,7 @@
          id="tspan974-85"
          x="25.962128"
          y="27.556042"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:Agave;-inkscape-font-specification:Agave;text-align:center;text-anchor:middle;fill:#36383f;fill-opacity:1;stroke-width:0.264583">background</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.64444px;font-family:Agave;-inkscape-font-specification:Agave;text-align:center;text-anchor:middle;fill:#36383f;fill-opacity:1;stroke-width:0.264583">background</tspan><tspan
          sodipodi:role="line"
          x="25.962128"
          y="38.139378"
@@ -496,5 +496,16 @@
          x="356.89157"
          y="144.16689"
          style="stroke-width:0.264583" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10.5833px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
+       x="236.01903"
+       y="113.08948"
+       id="text530"><tspan
+         sodipodi:role="line"
+         id="tspan528"
+         x="236.01903"
+         y="113.08948"
+         style="stroke-width:0.264583"></tspan></text>
   </g>
 </svg>
