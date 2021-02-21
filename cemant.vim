@@ -1,4 +1,4 @@
-" cemant colors for vim
+" cemant colors for vim (.vim/colors/cemant.vim)
 " agaric <agaric@protonmail.com>
 
 set background=light

@@ -1,4 +1,4 @@
-; cemant colors for emacs
+; cemant colors for emacs (.emacs.d/cemant-theme.el)
 ; agaric <agaric@protonmail.com>
 
 (deftheme cemant "Grayish lightish color scheme for Emacs")
