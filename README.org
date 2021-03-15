@@ -26,6 +26,13 @@ It is inspired by the light gray that was once (still is?) so popular in GUIs (a
 
 [[/pub/lab.png]]
 
+- application ::
+
+- emacs: *[[cemant-theme.el]]*
+- kakoune: *[[cemant.kak]]*
+- vim: *[[cemant.vim]]*
+- firefox theme: https://addons.mozilla.org/en-US/firefox/addon/cemant/
+
 - screenshot ::
 
 [[/pub/msgcat.png]]
