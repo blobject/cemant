@@ -28,6 +28,7 @@ It is inspired by the light gray that was once (still is?) so popular in GUIs (a
 
 - application ::
 
+- dircolors: *[[dircolors]]*
 - emacs: *[[cemant-theme.el]]*
 - kakoune: *[[cemant.kak]]*
 - vim: *[[cemant.vim]]*
@@ -36,6 +37,8 @@ It is inspired by the light gray that was once (still is?) so popular in GUIs (a
 - screenshot ::
 
 [[/pub/msgcat.png]]
+
+[[/pub/dirty.png]]
 
 - goals ::
   - target the average coder/admin who uses a standard modern display

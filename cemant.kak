@@ -23,7 +23,7 @@ face global comment  bright-blue
 face global function blue
 face global keyword  yellow
 face global meta     magenta
-face global module   black+b
+face global module   black,rgb:b0b3bb
 face global string   red
 face global type     green
 face global value    bright-magenta+b

@@ -1,0 +1,264 @@
+# dircolors
+# Copyright (C) 1996-2017 Free Software Foundation, Inc.
+# Copying and distribution of this file, with or without modification,
+# are permitted provided the copyright notice and this notice are preserved.
+TERM Eterm
+TERM ansi
+TERM *color*
+TERM con[0-9]*x[0-9]*
+TERM cons25
+TERM console
+TERM cygwin
+TERM dtterm
+TERM gnome
+TERM hurd
+TERM jfbterm
+TERM konsole
+TERM kterm
+TERM linux
+TERM linux-c
+TERM mlterm
+TERM putty
+TERM rxvt*
+TERM screen*
+TERM st
+TERM st-256color
+TERM st-meta
+TERM st-meta-256color
+TERM terminator
+TERM tmux*
+TERM vt100
+TERM xterm*
+# attr: 00=none 01=bold 04=underscore 05=blink 07=reverse 08=concealed
+# fg: 30=black 31=red 32=green 33=yellow 34=blue 35=magenta 36=cyan 37=white
+# bg: 40=black 41=red 42=green 43=yellow 44=blue 45=magenta 46=cyan 47=white
+#NORMAL 00                   # no color
+#FILE 00                     # file
+RESET 0                     # reset to "normal"
+DIR 34                      # dir
+LINK 36                     # symlink
+MULTIHARDLINK 00            # regular file with more than one link
+FIFO 30;44                  # pipe
+SOCK 37;44                  # socket
+DOOR 01;35;44               # door
+BLK 30;45                   # block device driver
+CHR 37;45                   # character device driver
+ORPHAN 37;41                # symlink bad
+MISSING 00                  # symlink target bad
+SETUID 37;40                # file u+s
+SETGID 30;43                # file g+s
+CAPABILITY 37;46            # file with capability
+STICKY_OTHER_WRITABLE 31;42 # dir +t,o+w
+OTHER_WRITABLE 34;42        # dir o+w
+STICKY 37;42                # dir +t
+EXEC 32
+# executable (green)
+#.bat 32
+#.btm 32
+#.cmd 32
+#.com 32
+#.csh 32
+#.exe 32
+# interest (yellow)
+*Dockerfile 33
+*README 33
+*README.md 33
+*README.org 33
+*README.txt 33
+*readme 33
+*readme.md 33
+*readme.org 33
+*readme.txt 33
+*akefile 33
+*rc 33
+.build 33
+.cfg 33
+.conf 33
+.csv 33
+.in 33
+.ini 33
+.json 33
+.markdown 33
+.md 33
+.mk 33
+.org 33
+.sql 33
+.tex 33
+.toml 33
+.yml 33
+# source (dark on light)
+.asm 47
+.c 47
+.cc 47
+.cpp 47
+.cxx 47
+.h 47
+.hh 47
+.hpp 47
+.hxx 47
+.cs 47
+.ex 47
+.exs 47
+.go 47
+.hs 47
+.java 47
+.js 47
+.lisp 47
+.objc 47
+.pl 47
+.pro 47
+.py 47
+.r 47
+.rs 47
+.scm 47
+.sh 47
+.tcl 47
+.html 47
+.xml 47
+.xhtml 47
+# unimportant (bright dark)
+*~ 01;30
+*# 01;30
+.aux 01;30
+.bak 01;30
+.bbl 01;30
+.blg 01;30
+.cache 01;30
+.class 01;30
+.incomplete 01;30
+.lof 01;30
+.log 01;30
+.lol 01;30
+.lot 01;30
+.old 01;30
+.out 01;30
+.part 01;30
+.pyc 01;30
+.swp 01;30
+.temp 01;30
+.tmp 01;30
+.toc 01;30
+# archive/compressed (red)
+.7z 31
+.ace 31
+.alz 31
+.apk 31
+.arc 31
+.arj 31
+.bz 31
+.bz2 31
+.cab 31
+.cpio 31
+.deb 31
+.dwm 31
+.dz 31
+.ear 31
+.esd 31
+.gem 31
+.gz 31
+.jar 31
+.lha 31
+.lrz 31
+.lz4 31
+.lzh 31
+.lzma 31
+.lz 31
+.lzo 31
+.rar 31
+.rpm 31
+.rz 31
+.swm 31
+.war 31
+.sar 31
+.t7z 31
+.tar 31
+.taz 31
+.tbz 31
+.tbz2 31
+.tgz 31
+.tlz 31
+.txz 31
+.tzo 31
+.tz 31
+.tzst 31
+.wim 31
+.xz 31
+.Z 31
+.z 31
+.zip 31
+.zoo 31
+.zst 31
+# image (bright magenta)
+.bmp 01;35
+.ico 01;35
+.gif 01;35
+.JPEG 01;35
+.jpeg 01;35
+.JPG 01;35
+.jpg 01;35
+.mjpg 01;35
+.mjpeg 01;35
+.mng 01;35
+.pbm 01;35
+.pcx 01;35
+.pdf 01;35
+.pgm 01;35
+.PNG 01;35
+.png 01;35
+.ppm 01;35
+.tga 01;35
+.tif 01;35
+.tiff 01;35
+.svg 01;35
+.svgz 01;35
+.webp 01;35
+.xbm 01;35
+.xpm 01;35
+# video (magenta)
+.asf 35
+.avi 35
+.cgm 35
+.dl 35
+.emf 35
+.flc 35
+.fli 35
+.flv 35
+.gl 35
+.m2v 35
+.m4v 35
+.mkv 35
+.mov 35
+.mpg 35
+.mpeg 35
+.mp4 35
+.mp4v 35
+.nuv 35
+.ogm 35
+.ogv 35
+.ogx 35
+.qt 35
+.rm 35
+.rmvb 35
+.vob 35
+.webm 35
+.wmv 35
+.xcf 35
+.xwd 35
+.yuv 35
+# audio (magenta on light)
+.aac 35;47
+.au 35;47
+.flac 35;47
+.m4a 35;47
+.mid 35;47
+.midi 35;47
+.mka 35;47
+.mp3 35;47
+.mpc 35;47
+.oga 35;47
+.ogg 35;47
+.opus 35;47
+.ra 35;47
+.spx 35;47
+.wav 35;47
+.xspf 35;47
