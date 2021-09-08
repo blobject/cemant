@@ -88,7 +88,13 @@
    `(rainbow-delimiters-depth-7-face ((t (:foreground ,c-7))))
    `(rainbow-delimiters-depth-8-face ((t (:foreground ,c-8))))
 
-  ))
+   ))
+
+;;;###autoload
+(and load-file-name
+     (boundp 'custom-theme-load-path)
+     (add-to-list 'custom-theme-load-path
+                  (file-name-as-directory
+                   (file-name-directory load-file-name))))
 
 (provide-theme 'cemant)
-
