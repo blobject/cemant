@@ -6,39 +6,40 @@ It is inspired by the light gray that was once (still is?) so popular in GUIs (a
 
 - palette ::
 
-[[/pub/palette.png]]
+[[/_pub/palette.png]]
 
 =let λ = 0.618 over 100, χ = 0.618 over 128=
 
 | [[https://en.wikipedia.org/wiki/ANSI_escape_code#Colors][name]] | [[https://en.wikipedia.org/wiki/Web_colors][rgb]] | RGB | [[https://en.wikipedia.org/wiki/CIELAB_color_space][l]] | L | a | b |
 |---|---|---|---|---|---|---|
-| [[/pub/bg.png]] [[/pub/fg.png]] bg, fg | =b9bdc5= | =36383f= | 76.4: 2λ^{2} | 23.6: λ^{3}   | 0             | -4.4: -χ^{7}  |
-| [[/pub/00d.png]] [[/pub/08dd.png]] dark | =16161d= | =575a61= | /[[https://en.wikipedia.org/wiki/Eigengrau][eigengrau]]/ | 38.2: λ^{2} | 0 | -4.4: -χ^{7} |
-| [[/pub/01r.png]] [[/pub/09rr.png]] red     | =a32c2d= | =cf554d= | 38.2: λ^{2}  | 52.8: λ^{2}+λ^{4}  | 48.9: χ^{2}   | 30.2: χ^{3}   |
-| [[/pub/02g.png]] [[/pub/10gg.png]] green   | =4b7d08= | =72a336= | 47.2: 2λ^{3} | 61.8: λ       | -30.2: -χ^{3} | 48.9: χ^{2}   |
-| [[/pub/03y.png]] [[/pub/11yy.png]] yellow  | =916814= | =ba8d3b= | 47.2: 2λ^{3} | 61.8: λ       | 11.5: χ^{5}    | 48.9: χ^{2}   |
-| [[/pub/04b.png]] [[/pub/12bb.png]] blue    | =3c56aa= | =667ad3= | 38.2: λ^{2}  | 52.8: λ^{2}+λ^{4}  | 11.5: χ^{5}   | -48.9: -χ^{2} |
-| [[/pub/05m.png]] [[/pub/13mm.png]] magenta | =91328c= | =ba59b3= | 38.2: λ^{2}  | 52.8: λ^{2}+λ^{4}  | 48.9: χ^{2}   | -30.2: -χ^{3} |
-| [[/pub/06c.png]] [[/pub/14cc.png]] cyan    | =237e6f= | =4ea494= | 47.2: 2λ^{3} | 61.8: λ       | -30.2: -χ^{3} | 0             |
-| [[/pub/07l.png]] [[/pub/15ll.png]] light   | =92959d= | =d2d6de= | 61.8: λ      | 85.4: λ+λ^{3} | 0             | -4.4: -χ^{7}  |
+| [[/_pub/bg.png]] [[/_pub/fg.png]] bg, fg | =b9bdc5= | =36383f= | 76.4: 2λ^{2} | 23.6: λ^{3}   | 0             | -4.4: -χ^{7}  |
+| [[/_pub/00d.png]] [[/_pub/08dd.png]] dark | =16161d= | =575a61= | /[[https://en.wikipedia.org/wiki/Eigengrau][eigengrau]]/ | 38.2: λ^{2} | 0 | -4.4: -χ^{7} |
+| [[/_pub/01r.png]] [[/_pub/09rr.png]] red     | =a32c2d= | =cf554d= | 38.2: λ^{2}  | 52.8: λ^{2}+λ^{4}  | 48.9: χ^{2}   | 30.2: χ^{3}   |
+| [[/_pub/02g.png]] [[/_pub/10gg.png]] green   | =4b7d08= | =72a336= | 47.2: 2λ^{3} | 61.8: λ       | -30.2: -χ^{3} | 48.9: χ^{2}   |
+| [[/_pub/03y.png]] [[/_pub/11yy.png]] yellow  | =916814= | =ba8d3b= | 47.2: 2λ^{3} | 61.8: λ       | 11.5: χ^{5}    | 48.9: χ^{2}   |
+| [[/_pub/04b.png]] [[/_pub/12bb.png]] blue    | =3c56aa= | =667ad3= | 38.2: λ^{2}  | 52.8: λ^{2}+λ^{4}  | 11.5: χ^{5}   | -48.9: -χ^{2} |
+| [[/_pub/05m.png]] [[/_pub/13mm.png]] magenta | =91328c= | =ba59b3= | 38.2: λ^{2}  | 52.8: λ^{2}+λ^{4}  | 48.9: χ^{2}   | -30.2: -χ^{3} |
+| [[/_pub/06c.png]] [[/_pub/14cc.png]] cyan    | =237e6f= | =4ea494= | 47.2: 2λ^{3} | 61.8: λ       | -30.2: -χ^{3} | 0             |
+| [[/_pub/07l.png]] [[/_pub/15ll.png]] light   | =92959d= | =d2d6de= | 61.8: λ      | 85.4: λ+λ^{3} | 0             | -4.4: -χ^{7}  |
 
 - [[https://en.wikipedia.org/wiki/Golden_ratio][φ]] over [[https://en.wikipedia.org/wiki/CIELAB_color_space][cielab]] ::
 
-[[/pub/lab.png]]
+[[/_pub/lab.png]]
 
 - application ::
 
-- dircolors: *[[dircolors/dircolors]]*
-- emacs: *[[emacs/cemant-theme.el]]*
-- kakoune: *[[kakoune/cemant.kak]]*
-- vim: *[[vim/cemant.vim]]*
+- dircolors: *[[dircolors/dircolors][dircolors]]*
+- emacs: *[[emacs/cemant-theme.el][cemant-theme.el]]*
+- kakoune: *[[kakoune/cemant.kak][cemant.kak]]*
+- termux: *[[termux/cemant.properties][cemant.properties]]*
+- vim: *[[vim/cemant.vim][cemant.vim]]*
 - firefox theme: https://addons.mozilla.org/en-US/firefox/addon/cemant/
 
 - screenshot ::
 
-[[/pub/msgcat.png]]
+[[/_pub/msgcat.png]]
 
-[[/pub/dirty.png]]
+[[/_pub/dirty.png]]
 
 - goals ::
   - target the average coder/admin who uses a standard modern display
