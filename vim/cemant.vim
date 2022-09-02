@@ -49,6 +49,7 @@ exec "hi lCursor      term=bold cterm=bold ctermbg=6 ctermfg=0 gui=bold guibg=" 
 exec "hi MatchParen   term=reverse ctermbg=14 ctermfg=0 guibg=" . s:Cyan . " guifg=" . s:dark
 exec "hi Directory    term=bold     ctermfg=4  guifg=" . s:blue
 exec "hi LineNr       ctermfg=7 guifg=" . s:light
+exec "hi SignColumn   ctermfg=7 guifg=" . s:light
 exec "hi MoreMsg      term=bold     ctermfg=2  gui=bold   guifg=" . s:green
 exec "hi NonText      term=bold     ctermfg=7  gui=bold   guifg=" . s:light
 exec "hi Question     term=standout ctermfg=2  gui=bold   guifg=" . s:green
@@ -112,6 +113,15 @@ exec "hi Debug          ctermfg=13 guifg=" . s:Magenta
 
 exec "hi Error   term=standout ctermbg=1 ctermfg=15 guibg=" . s:red . " guifg=" . s:Light
 exec "hi Ignore  ctermfg=7 guifg=" . s:light
-exec "hi Todo    ctermbg=11 ctermfg=0 guibg=" . s:Red . " guifg=" . s:dark
+exec "hi Todo    ctermbg=11 ctermfg=0 guibg=" . s:Blue . " guifg=" . s:dark
 exec "hi Underlined term=underline cterm=underline ctermfg=12 gui=underline guifg=" . s:Blue
 
+exec "hi DiagnosticError guifg=" . s:Red . " guibg=" . s:Dark
+exec "hi DiagnosticWarning guifg=" . s:yellow . " guibg=" . s:Dark
+exec "hi DiagnosticInfo guifg=" . s:Cyan . " guibg=" . s:Dark
+exec "hi DiagnosticHint guifg=" . s:Green . " guibg=" . s:Dark
+
+exec "hi LspDiagnosticsVirtualTextError guifg=" . s:Red
+exec "hi LspDiagnosticsVirtualTextWarning guifg=" . s:yellow
+exec "hi LspDiagnosticsVirtualTextInformation guifg=" . s:Cyan
+exec "hi LspDiagnosticsVirtualTextHint guifg=" . s:Green
