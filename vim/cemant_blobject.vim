@@ -1,5 +1,5 @@
 " cemant colors for vim (.vim/colors/cemant.vim)
-" agaric <agaric@protonmail.com>
+" agaric <agaric@pm.me>
 
 set background=light
 hi clear

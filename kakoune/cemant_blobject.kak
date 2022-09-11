@@ -1,5 +1,5 @@
 # cemant colors for kakoune (.config/kak/colors/cemant.kak)
-# agaric <agaric@protonmail.com>
+# agaric <agaric@pm.me>
 
 # 16161d black
 # a32c2d red

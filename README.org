@@ -26,28 +26,25 @@ It is inspired by the light gray that was once (still is?) so popular in GUIs (a
 
 [[/_pub/lab.png]]
 
-- application ::
-
-- dircolors: *[[dircolors/dircolors][dircolors]]*
-- emacs: *[[emacs/cemant-theme.el][cemant-theme.el]]*
-- kakoune: *[[kakoune/cemant.kak][cemant.kak]]*
-- termux: *[[termux/cemant.properties][cemant.properties]]*
-- vim: *[[vim/cemant.vim][cemant.vim]]*
-- firefox theme: https://addons.mozilla.org/en-US/firefox/addon/cemant/
-
 - screenshot ::
 
 [[/_pub/msgcat.png]]
 
 [[/_pub/dirty.png]]
 
+- miscellaneous ::
+
+  - firefox theme: https://addons.mozilla.org/en-US/firefox/addon/cemant/
+
 - goals ::
+
   - target the average coder/admin who uses a standard modern display
   - prefer less long-term fatigue over pizzazz
   - be colorimetrically and mathematically graceful
   - feel "default" and "correct"
 
 - list of some other gray color schemes ::
+
   - anti-zenburn: https://github.com/m00natic/anti-zenburn-theme
   - morning: https://github.com/vim/vim/blob/master/runtime/colors/morning.vim
   - nextstep: https://en.wikipedia.org/wiki/NeXTSTEP#/media/File:NeXTSTEP_desktop.png
