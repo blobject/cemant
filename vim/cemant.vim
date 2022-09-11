@@ -9,119 +9,87 @@ endif
 
 let colors_name = "cemant"
 
-" palette
-let s:background = "#b9bdc5"
-let s:foreground = "#36383f"
+hi Normal       guifg=#36383f guibg=#b9bdc5
+hi ErrorMsg     term=standout ctermbg=1 ctermfg=15 guibg=#a32c2d guifg=#d2d6de
+hi IncSearch    term=reverse cterm=reverse gui=reverse
+hi ModeMsg      term=bold cterm=bold gui=bold
+hi StatusLine   term=reverse cterm=bold ctermbg=8 ctermfg=15 gui=bold guibg=#575a61 guifg=#d2d6de
+hi StatusLineNC term=reverse cterm=NONE ctermfg=8 gui=NONE guifg=#575a61
+hi StatusLineTerm term=reverse cterm=bold ctermbg=2 ctermfg=15 gui=bold guibg=#4b7d08 guifg=#d2d6de
+hi StatusLineTermNC term=reverse cterm=NONE ctermbg=2 ctermfg=15 gui=NONE guibg=#4b7d08 guifg=#d2d6de
+hi ToolbarLine  cterm=bold ctermbg=8 ctermfg=0 gui=bold guibg=#575a61 guifg=#16161d
+hi ToolbarButton term=bold cterm=bold ctermbg=8 ctermfg=15 gui=bold guibg=#575a61 guifg=#d2d6de
+hi VertSplit    term=reverse cterm=NONE ctermfg=7 gui=NONE guifg=#92959d
+hi Visual       term=reverse ctermbg=15 guibg=#d2d6de
+hi VisualNOS    term=underline,bold cterm=underline,bold gui=underline,bold
+hi Cursor       term=bold cterm=bold ctermbg=0 ctermfg=15 gui=bold guibg=#16161d guifg=#d2d6de
+hi lCursor      term=bold cterm=bold ctermbg=6 ctermfg=0 gui=bold guibg=#237e6f guifg=#16161d
+hi MatchParen   term=reverse ctermbg=14 ctermfg=0 guibg=#4ea494 guifg=#16161d
+hi Directory    term=bold     ctermfg=4  guifg=#3c56aa
+hi LineNr       ctermfg=7 guifg=#92959d
+hi MoreMsg      term=bold     ctermfg=2  gui=bold   guifg=#4b7d08
+hi NonText      term=bold     ctermfg=7  gui=bold   guifg=#92959d
+hi Question     term=standout ctermfg=2  gui=bold   guifg=#4b7d08
+hi Search       term=reverse cterm=reverse,bold ctermbg=NONE guibg=#ba8d3b guifg=NONE
+hi SpecialKey   term=bold     ctermbg=10  ctermfg=0 guibg=#cf554d guifg=#16161d
+hi Title        term=bold     ctermfg=5  gui=bold   guifg=#91328c
+hi WarningMsg   term=standout ctermbg=7  ctermfg=1  guibg=#cf554d guifg=#16161d
+hi WildMenu     term=standout ctermbg=3  ctermfg=0  guibg=#916814 guifg=#16161d
+hi Folded       term=standout ctermbg=7  ctermfg=4  guibg=#92959d guifg=#3c56aa
+hi FoldColumn   term=standout ctermbg=7  ctermfg=4  guibg=#92959d guifg=#3c56aa
+hi FoldColumn   term=standout ctermbg=7  ctermfg=4  guibg=#92959d guifg=#3c56aa
+hi Conceal      ctermbg=8 ctermfg=7 guibg=#575a61 guifg=#92959d
+hi DiffAdd      term=bold ctermbg=12 guibg=#667ad3
+hi DiffChange   term=bold ctermbg=13 guibg=#ba59b3
+hi DiffDelete   term=bold ctermbg=9 guibg=#cf554d
+hi DiffText     term=bold ctermbg=14 guibg=#4ea494
+hi SpellBad     term=bold ctermbg=9 gui=undercurl guibg=#cf554d guisp=#a32c2d
+hi SpellCap     term=bold ctermbg=12 gui=undercurl guibg=#667ad3 guisp=#3c56aa
+hi SpellRare    term=bold ctermbg=13 gui=undercurl guibg=#ba59b3 guisp=#91328c
+hi SpellLocal   term=bold ctermbg=14 gui=undercurl guibg=#4ea494 guisp=#3c56aa
+hi CursorLine   term=underline cterm=underline guibg=#aaadb5
+hi CursorColumn term=reverse  ctermbg=7  guibg=#aaadb5
 
-let s:dark = "#16161d"
-let s:red = "#a32c2d"
-let s:green = "#4b7d08"
-let s:yellow = "#916814"
-let s:blue = "#3c56aa"
-let s:magenta = "#91328c"
-let s:cyan = "#237e6f"
-let s:light = "#92959d"
+hi Comment cterm=bold ctermfg=12 guifg=#667ad3
 
-let s:Dark = "#575a61"
-let s:Red = "#cf554d"
-let s:Green = "#72a336"
-let s:Yellow = "#ba8d3b"
-let s:Blue = "#667ad3"
-let s:Magenta = "#ba59b3"
-let s:Cyan = "#4ea494"
-let s:Light = "#d2d6de"
+hi Boolean   ctermfg=1 guifg=#a32c2d
+hi Character ctermfg=1 guifg=#a32c2d
+hi Float     ctermfg=1 guifg=#a32c2d
+hi Constant  ctermfg=1 guifg=#a32c2d
+hi Number    ctermfg=1 guifg=#a32c2d
+hi String    ctermfg=1 guifg=#a32c2d
 
-exec "hi Normal       guifg=" . s:foreground . " guibg=" . s:background
-exec "hi ErrorMsg     term=standout ctermbg=1 ctermfg=15 guibg=" . s:red . " guifg=" . s:Light
-exec "hi IncSearch    term=reverse cterm=reverse gui=reverse"
-exec "hi ModeMsg      term=bold cterm=bold gui=bold"
-exec "hi StatusLine   term=reverse cterm=bold ctermbg=8 ctermfg=15 gui=bold guibg=" . s:Dark . " guifg=" . s:Light
-exec "hi StatusLineNC term=reverse cterm=NONE ctermfg=8 gui=NONE guifg=" . s:Dark
-exec "hi StatusLineTerm term=reverse cterm=bold ctermbg=2 ctermfg=15 gui=bold guibg=" . s:green . " guifg=" . s:Light
-exec "hi StatusLineTermNC term=reverse cterm=NONE ctermbg=2 ctermfg=15 gui=NONE guibg=" . s:green . " guifg=" . s:Light
-exec "hi ToolbarLine  cterm=bold ctermbg=8 ctermfg=0 gui=bold guibg=" . s:Dark . " guifg=" . s:dark
-exec "hi ToolbarButton term=bold cterm=bold ctermbg=8 ctermfg=15 gui=bold guibg=" . s:Dark . " guifg=" . s:Light
-exec "hi VertSplit    term=reverse cterm=NONE ctermfg=7 gui=NONE guifg=" . s:light
-exec "hi Visual       term=reverse ctermbg=15 guibg=" . s:Light
-exec "hi VisualNOS    term=underline,bold cterm=underline,bold gui=underline,bold"
-exec "hi Cursor       term=bold cterm=bold ctermbg=0 ctermfg=15 gui=bold guibg=" . s:dark . " guifg=" . s:Light
-exec "hi lCursor      term=bold cterm=bold ctermbg=6 ctermfg=0 gui=bold guibg=" . s:cyan . " guifg=" . s:dark
-exec "hi MatchParen   term=reverse ctermbg=14 ctermfg=0 guibg=" . s:Cyan . " guifg=" . s:dark
-exec "hi Directory    term=bold     ctermfg=4  guifg=" . s:blue
-exec "hi LineNr       ctermfg=7 guifg=" . s:light
-exec "hi SignColumn   ctermfg=7 guifg=" . s:light
-exec "hi MoreMsg      term=bold     ctermfg=2  gui=bold   guifg=" . s:green
-exec "hi NonText      term=bold     ctermfg=7  gui=bold   guifg=" . s:light
-exec "hi Question     term=standout ctermfg=2  gui=bold   guifg=" . s:green
-exec "hi Search       term=reverse cterm=reverse,bold ctermbg=NONE guibg=" . s:Yellow . " guifg=NONE"
-exec "hi SpecialKey   term=bold     ctermbg=10  ctermfg=0 guibg=" . s:Red . " guifg=" . s:dark
-exec "hi Title        term=bold     ctermfg=5  gui=bold   guifg=" . s:magenta
-exec "hi WarningMsg   term=standout ctermbg=7  ctermfg=1  guibg=" . s:Red . " guifg=" . s:dark
-exec "hi WildMenu     term=standout ctermbg=3  ctermfg=0  guibg=" . s:yellow . " guifg=" . s:dark
-exec "hi Folded       term=standout ctermbg=7  ctermfg=4  guibg=" . s:light . " guifg=" . s:blue
-exec "hi FoldColumn   term=standout ctermbg=7  ctermfg=4  guibg=" . s:light . " guifg=" . s:blue
-exec "hi FoldColumn   term=standout ctermbg=7  ctermfg=4  guibg=" . s:light . " guifg=" . s:blue
-exec "hi Conceal      ctermbg=8 ctermfg=7 guibg=" . s:Dark . " guifg=" . s:light
-exec "hi DiffAdd      term=bold ctermbg=12 guibg=" . s:Blue
-exec "hi DiffChange   term=bold ctermbg=13 guibg=" . s:Magenta
-exec "hi DiffDelete   term=bold ctermbg=9 guibg=" . s:Red
-exec "hi DiffText     term=bold ctermbg=14 guibg=" . s:Cyan
-exec "hi SpellBad     term=bold ctermbg=9 gui=undercurl guibg=" . s:Red . " guisp=" . s:red
-exec "hi SpellCap     term=bold ctermbg=12 gui=undercurl guibg=" . s:Blue . " guisp=" . s:blue
-exec "hi SpellRare    term=bold ctermbg=13 gui=undercurl guibg=" . s:Magenta . " guisp=" . s:magenta
-exec "hi SpellLocal   term=bold ctermbg=14 gui=undercurl guibg=" . s:Cyan . " guisp=" . s:blue
-exec "hi CursorLine   term=underline cterm=underline guibg=#aaadb5"
-exec "hi CursorColumn term=reverse  ctermbg=7  guibg=#aaadb5"
+hi Function   term=underline cterm=bold ctermfg=4 guifg=#3c56aa
+hi Identifier term=underline cterm=bold ctermfg=4 guifg=#3c56aa
 
-exec "hi Comment cterm=bold ctermfg=12 guifg=" . s:Blue
+hi Statement   term=underline ctermfg=3 guifg=#916814
+hi Conditional term=underline ctermfg=3 guifg=#916814
+hi Repeat      term=underline ctermfg=3 guifg=#916814
+hi Label       term=underline ctermfg=3 guifg=#916814
+hi Operator    term=underline ctermfg=3 guifg=#916814
+hi Keyword     term=underline ctermfg=3 guifg=#916814
+hi Exception   term=underline ctermfg=3 guifg=#916814
 
-exec "hi Boolean   ctermfg=1 guifg=" . s:red
-exec "hi Character ctermfg=1 guifg=" . s:red
-exec "hi Float     ctermfg=1 guifg=" . s:red
-exec "hi Constant  ctermfg=1 guifg=" . s:red
-exec "hi Number    ctermfg=1 guifg=" . s:red
-exec "hi String    ctermfg=1 guifg=" . s:red
+hi PreProc   ctermfg=5 guifg=#91328c
+hi Include   ctermfg=5 guifg=#91328c
+hi Define    ctermfg=5 guifg=#91328c
+hi Macro     ctermfg=5 guifg=#91328c
+hi PreCondit ctermfg=5 guifg=#91328c
 
-exec "hi Function   term=underline cterm=bold ctermfg=4 guifg=" . s:blue
-exec "hi Identifier term=underline cterm=bold ctermfg=4 guifg=" . s:blue
+hi Type         ctermfg=2 guifg=#4b7d08
+hi StorageClass ctermfg=2 guifg=#4b7d08
+hi Structure    ctermfg=2 guifg=#4b7d08
+hi Typedef      ctermfg=2 guifg=#4b7d08
 
-exec "hi Statement   term=underline ctermfg=3 guifg=" . s:yellow
-exec "hi Conditional term=underline ctermfg=3 guifg=" . s:yellow
-exec "hi Repeat      term=underline ctermfg=3 guifg=" . s:yellow
-exec "hi Label       term=underline ctermfg=3 guifg=" . s:yellow
-exec "hi Operator    term=underline ctermfg=3 guifg=" . s:yellow
-exec "hi Keyword     term=underline ctermfg=3 guifg=" . s:yellow
-exec "hi Exception   term=underline ctermfg=3 guifg=" . s:yellow
+hi Special        ctermfg=13 guifg=#ba59b3
+hi SpecialChar    ctermfg=13 guifg=#ba59b3
+hi Tag            ctermfg=13 guifg=#ba59b3
+hi Delimiter      ctermfg=13 guifg=#ba59b3
+hi SpecialComment ctermfg=13 guifg=#ba59b3
+hi Debug          ctermfg=13 guifg=#ba59b3
 
-exec "hi PreProc   ctermfg=5 guifg=" . s:magenta
-exec "hi Include   ctermfg=5 guifg=" . s:magenta
-exec "hi Define    ctermfg=5 guifg=" . s:magenta
-exec "hi Macro     ctermfg=5 guifg=" . s:magenta
-exec "hi PreCondit ctermfg=5 guifg=" . s:magenta
+hi Error   term=standout ctermbg=1 ctermfg=15 guibg=#a32c2d guifg=#d2d6de
+hi Ignore  ctermfg=7 guifg=#92959d
+hi Todo    ctermbg=11 ctermfg=0 guibg=#cf554d guifg=#16161d
+hi Underlined term=underline cterm=underline ctermfg=12 gui=underline guifg=#667ad3
 
-exec "hi Type         ctermfg=2 guifg=" . s:green
-exec "hi StorageClass ctermfg=2 guifg=" . s:green
-exec "hi Structure    ctermfg=2 guifg=" . s:green
-exec "hi Typedef      ctermfg=2 guifg=" . s:green
-
-exec "hi Special        ctermfg=13 guifg=" . s:Magenta
-exec "hi SpecialChar    ctermfg=13 guifg=" . s:Magenta
-exec "hi Tag            ctermfg=13 guifg=" . s:Magenta
-exec "hi Delimiter      ctermfg=13 guifg=" . s:Magenta
-exec "hi SpecialComment ctermfg=13 guifg=" . s:Magenta
-exec "hi Debug          ctermfg=13 guifg=" . s:Magenta
-
-exec "hi Error   term=standout ctermbg=1 ctermfg=15 guibg=" . s:red . " guifg=" . s:Light
-exec "hi Ignore  ctermfg=7 guifg=" . s:light
-exec "hi Todo    ctermbg=11 ctermfg=0 guibg=" . s:Blue . " guifg=" . s:dark
-exec "hi Underlined term=underline cterm=underline ctermfg=12 gui=underline guifg=" . s:Blue
-
-exec "hi DiagnosticError guifg=" . s:Red . " guibg=" . s:Dark
-exec "hi DiagnosticWarning guifg=" . s:yellow . " guibg=" . s:Dark
-exec "hi DiagnosticInfo guifg=" . s:Cyan . " guibg=" . s:Dark
-exec "hi DiagnosticHint guifg=" . s:Green . " guibg=" . s:Dark
-
-exec "hi LspDiagnosticsVirtualTextError guifg=" . s:Red
-exec "hi LspDiagnosticsVirtualTextWarning guifg=" . s:yellow
-exec "hi LspDiagnosticsVirtualTextInformation guifg=" . s:Cyan
-exec "hi LspDiagnosticsVirtualTextHint guifg=" . s:Green
