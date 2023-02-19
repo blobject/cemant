@@ -18,7 +18,7 @@
 # 4ea494 bright-cyan
 # d2d6de bright-white
 
-face global builtin  bright-yellow+b
+face global builtin  bright-yellow
 face global comment  bright-blue
 face global function blue
 face global keyword  yellow
@@ -26,13 +26,13 @@ face global meta     magenta
 face global module   black,rgb:b0b3bb
 face global string   red
 face global type     green
-face global value    bright-magenta+b
+face global value    bright-magenta
 face global variable cyan
 face global title  red
 face global header blue
 face global link   bright-cyan+b
 face global BufferPadding      bright-black
-face global Error              bright-white,red+b
+face global Error              bright-white,red
 face global Information        bright-black,bright-white
 face global LineNumberCursor   black,rgb:b0b3bb+b
 face global LineNumbers        bright-black,rgb:b0b3bb

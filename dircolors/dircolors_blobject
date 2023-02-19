@@ -13,6 +13,7 @@ TERM cons25
 TERM console
 TERM cygwin
 TERM dtterm
+TERM foot
 TERM gnome
 TERM hurd
 TERM jfbterm
@@ -51,9 +52,9 @@ MISSING 00                  # symlink target bad
 SETUID 37;40                # file u+s
 SETGID 30;43                # file g+s
 CAPABILITY 37;46            # file with capability
-STICKY_OTHER_WRITABLE 31;42 # dir +t,o+w
-OTHER_WRITABLE 34;42        # dir o+w
-STICKY 37;42                # dir +t
+STICKY_OTHER_WRITABLE 31;47 # dir +t,o+w
+OTHER_WRITABLE 34;47        # dir o+w
+STICKY 32;47                # dir +t
 EXEC 32
 # executable (green)
 #.bat 32
@@ -120,27 +121,27 @@ EXEC 32
 .xml 47
 .xhtml 47
 # unimportant (bright dark)
-*~ 01;30
-*# 01;30
-.aux 01;30
-.bak 01;30
-.bbl 01;30
-.blg 01;30
-.cache 01;30
-.class 01;30
-.incomplete 01;30
-.lof 01;30
-.log 01;30
-.lol 01;30
-.lot 01;30
-.old 01;30
-.out 01;30
-.part 01;30
-.pyc 01;30
-.swp 01;30
-.temp 01;30
-.tmp 01;30
-.toc 01;30
+*~ 02;37
+*# 02;37
+.aux 02;37
+.bak 02;37
+.bbl 02;37
+.blg 02;37
+.cache 02;37
+.class 02;37
+.incomplete 02;37
+.lof 02;37
+.log 02;37
+.lol 02;37
+.lot 02;37
+.old 02;37
+.out 02;37
+.part 02;37
+.pyc 02;37
+.swp 02;37
+.temp 02;37
+.tmp 02;37
+.toc 02;37
 # archive/compressed (red)
 .7z 31
 .ace 31
