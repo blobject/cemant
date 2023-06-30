@@ -2,7 +2,7 @@
 
 Cemant (pronouced sə'mænt) is an 18-color palette for use with terminals, text editors, and minimalistic desktop environments.
 
-It is inspired by the light gray that was once (still is?) so popular in GUIs (a few links to screenshots provided below) and utilises a lowish-contrast set of accompanying colors to round out the palette. Hues and values were calculated over the CIELAB color space with the aid of the golden ratio to add some Reason, even if the calculations would have no other scientific or ergonomic basis.
+It is inspired by the light gray that was once (still is?) so popular in GUIs (a few other gray palettes linked below) and utilises a lowish-contrast set of accompanying colors to round out the palette. Hues and values were calculated over the CIELAB color space with the aid of the golden ratio to add some Reason, even if the calculations would have no other scientific or ergonomic basis.
 
 - palette ::
 
