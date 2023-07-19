@@ -78,6 +78,7 @@ EXEC 32
 .build 33
 .cfg 33
 .conf 33
+.css 33
 .csv 33
 .in 33
 .ini 33
@@ -86,6 +87,7 @@ EXEC 32
 .md 33
 .mk 33
 .org 33
+.scss 33
 .sql 33
 .tex 33
 .toml 33
@@ -107,6 +109,7 @@ EXEC 32
 .hs 47
 .java 47
 .js 47
+.jsx 47
 .lisp 47
 .objc 47
 .pl 47
@@ -117,6 +120,8 @@ EXEC 32
 .scm 47
 .sh 47
 .tcl 47
+.ts 47
+.tsx 47
 .html 47
 .xml 47
 .xhtml 47
